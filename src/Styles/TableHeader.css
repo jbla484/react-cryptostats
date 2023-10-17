@@ -1,15 +1,21 @@
 td {
-  padding: 5px 15px;
-  margin: 0;
+    padding: 5px 15px;
+    margin: 0;
 }
 
 thead tr th {
-  position: sticky;
-  top: 0px;
-  z-index: 1;
-  background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    padding: 15px 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
 }
 
 thead tr {
-  text-align: center;
+    text-align: center;
 }

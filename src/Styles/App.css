@@ -1,33 +1,52 @@
 .App-header {
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .coinHeader {
-  box-shadow: 1px 2px 20px 10px rgba(121, 121, 121, 0.2);
-  background-color: white;
-  width: 95%;
-  margin: 0 0 40px 0;
-  padding: 0 0 40px 0;
-  position: relative;
-  overflow: auto;
+    box-shadow: 1px 2px 20px 10px rgba(121, 121, 121, 0.2);
+    background-color: white;
+    width: 95%;
+    margin: 40px 0 40px 0;
+    padding: 0 0 40px 0;
+    position: relative;
+    overflow: auto;
 }
 
 .coinContainer {
-  position: relative;
+    position: relative;
 }
 
 .border_radius {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .padding {
-  padding: 20px 0;
+    padding: 20px 0;
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
+}
+
+nav {
+    display: block;
+    background-color: rgb(209, 134, 255);
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+    font-size: 26px;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+nav h4 {
+    padding: 0 20px;
+    margin: 0;
 }
